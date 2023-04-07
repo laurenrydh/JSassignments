@@ -5,10 +5,6 @@ function outer() {
     console.log(a)
     console.log(b)
     function inner(a,b) { 
-        a = 'Potato'
-        b = {calories: 161, color: 'brown'}
-        console.log(a)
-        console.log(b)
         a = 'Salad'
         b = {calories: 450, color: 'green'}
         console.log(a)
